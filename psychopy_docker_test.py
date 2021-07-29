@@ -1,6 +1,7 @@
 from psychopy import visual, core,  monitors
 import random
 
+
 # define monitor
 SCREEN = visual.Window(size=(1280, 800), units='pix', color=(-1,-1,-1))
 
