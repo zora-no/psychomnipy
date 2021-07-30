@@ -1,4 +1,6 @@
-from psychopy import visual, core,  monitors
+#from pyglet.gl import *
+from psychopy import visual
+from psychopy import core
 import random
 
 
