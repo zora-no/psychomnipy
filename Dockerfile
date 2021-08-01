@@ -1,5 +1,6 @@
 # base image
 FROM ubuntu:20.04
+FROM python:3
 
 RUN apt-get update
 RUN apt-get upgrade -y
@@ -20,7 +21,7 @@ WORKDIR /usr/src/app
 COPY psychopy_docker_test.py .
 
 # command to run on container start
-CMD ["psychopy_docker_test.py"]
+CMD ["python", "psychopy_docker_test.py"]
 
 # configure a container that will run as an executable
-ENTRYPOINT ["python3"]
+#ENTRYPOINT ["python3"]
