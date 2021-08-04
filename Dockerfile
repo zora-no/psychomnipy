@@ -4,18 +4,28 @@ FROM python:3
 
 RUN apt-get update
 RUN apt-get upgrade -y
+
 # RUN echo "export DISPLAY=:0"  >> /etc/profile
 RUN apt-get update && apt-get install -y \
     python3 \
     python3-pip \
-    python3-opengl
+    python3-opengl \
+    xvfb
+
 RUN pip3 install psychopy==2021.2
 RUN pip3 install psychtoolbox==3.0.17.7
 #RUN pip3 install pyglet==1.5.11
 
-
 # set the working directory in the container
 WORKDIR /usr/src/app
+
+#######
+# Start xvfb
+RUN Xvfb :1 -screen 0 1024x768x24 -ac +extension GLX +render -noreset &> xvfb.log &
+
+# Export your display id
+RUN export DISPLAY=:1
+######
 
 # add files to filesystem of the container
 COPY psychopy_docker_test.py .
