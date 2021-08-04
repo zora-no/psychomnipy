@@ -1,5 +1,5 @@
 
-# psychoomnipy
+# psychomnipy
 Platform Independant Psychopy for High Reproducibility
 
 ### To Build
