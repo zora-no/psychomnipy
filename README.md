@@ -18,4 +18,5 @@ Very important read: https://linuxmeerkat.wordpress.com/2014/10/17/running-a-gui
 
 August 6, 2021
 The experiment runs, however, the output goes to xvfb, and doesn't come to the monitor
+http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/   [please try first]
 https://stackoverflow.com/questions/12050021/how-to-make-xvfb-display-visible
