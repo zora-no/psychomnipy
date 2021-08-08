@@ -6,8 +6,8 @@ RUN apt-get update
 RUN apt-get upgrade -y
 #RUN apt-get install -y build-essential
 
-# RUN echo "export DISPLAY=:0"  >> /etc/profile
 RUN apt-get update && apt-get install -y \
+    x11vnc \
     python3 \
     python3-pip \
     python3-opengl \
@@ -54,3 +54,4 @@ CMD /run.sh
 
 # configure a container that will run as an executable
 #ENTRYPOINT ["python3"]
+
