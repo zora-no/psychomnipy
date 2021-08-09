@@ -6,7 +6,7 @@ Platform Independant Psychopy for High Reproducibility
 `sudo docker build -t psychomnipy .`
 
 ### To Run
-`sudo docker run -it psychomnipy`
+`sudo docker run -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix psychomnipy`
 
 ### Progress
 
@@ -32,3 +32,6 @@ August 8, 2021
 Xvfb $DISPLAY :1 -screen 0 1024x768x24 -ac +extension GLX +render -noreset &> xvfb.log &
 x11vnc -display $DISPLAY -bg -forever -nopw -quiet -listen localhost -xkb
   ```
+
+August 9th, 2021
+The experiment now runs via Docker, however the Display has to be passed as a using the `$DISPLAY` environment variable on Linux based systems. How do we obtain this variable on Windows?
