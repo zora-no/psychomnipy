@@ -36,21 +36,36 @@ RUN pip3 install psychopy==2021.2
 RUN pip3 install psychtoolbox==3.0.17.7
 #RUN pip3 install pyglet==1.5.11
 
-ENV DISPLAY :1
+#RUN apt-get install -y x11-apps
+
+#ENV DISPLAY :1
+
+RUN apt-get install sudo
+
+RUN export uid=1000 gid=1000 && \
+    mkdir -p /home/developer && \
+    echo "developer:x:${uid}:${gid}:Developer,,,:/home/developer:/bin/bash" >> /etc/passwd && \
+    echo "developer:x:${uid}:" >> /etc/group && \
+    echo "developer ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/developer && \
+    chmod 0440 /etc/sudoers.d/developer && \
+    chown ${uid}:${gid} -R /home/developer
+
+USER developer
+ENV HOME /home/developer
 
 # set the working directory in the container
-WORKDIR /usr/src/app
+#WORKDIR /usr/src/app
 
 # add files to filesystem of the container
 COPY psychopy_docker_test.py .
 
-ADD run.sh /run.sh
-RUN chmod a+x /run.sh
+#ADD run.sh /run.sh
+#RUN chmod a+x /run.sh
 
-CMD /run.sh
+#CMD /run.sh
 
 # command to run on container start
-#CMD ["python", "psychopy_docker_test.py"]
+CMD ["python", "psychopy_docker_test.py"]
 
 # configure a container that will run as an executable
 #ENTRYPOINT ["python3"]
