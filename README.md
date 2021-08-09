@@ -32,3 +32,9 @@ August 8, 2021
 Xvfb $DISPLAY :1 -screen 0 1024x768x24 -ac +extension GLX +render -noreset &> xvfb.log &
 x11vnc -display $DISPLAY -bg -forever -nopw -quiet -listen localhost -xkb
   ```
+
+August 9th
+The experiment runs now, but on a Linux machine with the `$DISPLAY` environment variable and xserver.
+
+This tutorial needs to be tried on Windows machine to test if it can be used on Windows machine as well: https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde
+
