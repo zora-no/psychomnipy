@@ -39,3 +39,9 @@ The experiment runs now, but on a Linux machine with the `$DISPLAY` environment 
 
 This tutorial needs to be tried on Windows machine to test if it can be used on Windows machine as well: https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde
 
+#### August 11th
+Successfully tried the tutorial on Windows 10. (Note: had to add :0.0 after the IP address, so e.g. 192.166.176.37:0.0) 
+
+The step of manually adding the IP address can be automated: 
+`docker build firefox .`
+`docker run -ti --rm -e DISPLAY=host.docker.internal:0.0 firefox`
