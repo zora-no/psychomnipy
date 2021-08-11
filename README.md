@@ -43,5 +43,8 @@ This tutorial needs to be tried on Windows machine to test if it can be used on 
 Successfully tried the tutorial on Windows 10. (Note: had to add :0.0 after the IP address, so e.g. 192.166.176.37:0.0) 
 
 The step of manually adding the IP address can be automated: 
-`docker build -t firefox .`
-`docker run -ti --rm -e DISPLAY=host.docker.internal:0.0 firefox`
+
+The experiment also runs on Windows now:
+1. install vcxsrv and save the config (according to the tutorial link above)
+2. build the docker image
+3. `docker run -ti --rm -e DISPLAY=host.docker.internal:0.0 psychomnipy`
