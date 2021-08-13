@@ -48,3 +48,8 @@ The experiment also runs on Windows now:
 1. install vcxsrv and save the config (according to the tutorial link above)
 2. build the docker image
 3. `docker run -ti --rm -e DISPLAY=host.docker.internal:0.0 psychomnipy`
+
+#### August 13th
+Creating a separate dockerfile based on Windows to be used on Windows machines (to prevent having to install vcxsrv)
+is not feasible since the GUI subsystem is not available from Docker containers.
+
