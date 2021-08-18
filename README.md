@@ -48,3 +48,8 @@ The experiment also runs on Windows now:
 1. install vcxsrv and save the config (according to the tutorial link above)
 2. build the docker image
 3. `docker run -ti --rm -e DISPLAY=host.docker.internal:0.0 psychomnipy`
+
+#### August 18th
+https://github.com/gklingler/docker3d
+This repo saves the day. All errors eliminated. Next tasks are to time the processes.
+
