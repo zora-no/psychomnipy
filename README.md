@@ -49,6 +49,10 @@ The experiment also runs on Windows now:
 2. build the docker image
 3. `docker run -ti --rm -e DISPLAY=host.docker.internal:0.0 psychomnipy`
 
+#### August 13th
+Creating a separate dockerfile based on Windows to be used on Windows machines (to prevent having to install vcxsrv)
+is not feasible since the GUI subsystem is not available from Docker containers.
+
 #### August 18th
 https://github.com/gklingler/docker3d
 This repo saves the day. All errors eliminated. Next tasks are to time the processes.
