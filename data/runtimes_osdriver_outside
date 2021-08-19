@@ -1,0 +1,300 @@
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.93user 3.87system 0:02.40elapsed 282%CPU (0avgtext+0avgdata 256052maxresident)k
+0inputs+112outputs (3major+117516minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.83user 3.97system 0:02.39elapsed 283%CPU (0avgtext+0avgdata 255272maxresident)k
+0inputs+104outputs (3major+117565minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.76user 4.02system 0:02.37elapsed 285%CPU (0avgtext+0avgdata 255548maxresident)k
+0inputs+104outputs (3major+117472minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.70user 4.11system 0:02.41elapsed 281%CPU (0avgtext+0avgdata 256080maxresident)k
+0inputs+104outputs (3major+117492minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.87user 3.91system 0:02.34elapsed 289%CPU (0avgtext+0avgdata 256048maxresident)k
+0inputs+104outputs (3major+117412minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.89user 3.88system 0:02.35elapsed 287%CPU (0avgtext+0avgdata 255688maxresident)k
+0inputs+104outputs (3major+117450minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.86user 3.92system 0:02.36elapsed 287%CPU (0avgtext+0avgdata 255372maxresident)k
+0inputs+104outputs (3major+117491minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.79user 3.98system 0:02.37elapsed 285%CPU (0avgtext+0avgdata 256032maxresident)k
+0inputs+104outputs (3major+117628minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.82user 3.95system 0:02.36elapsed 286%CPU (0avgtext+0avgdata 255204maxresident)k
+0inputs+104outputs (3major+117553minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.89user 3.92system 0:02.40elapsed 283%CPU (0avgtext+0avgdata 255780maxresident)k
+0inputs+104outputs (3major+117428minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.67user 4.11system 0:02.37elapsed 285%CPU (0avgtext+0avgdata 255548maxresident)k
+0inputs+104outputs (3major+117508minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.90user 3.94system 0:02.43elapsed 280%CPU (0avgtext+0avgdata 256740maxresident)k
+0inputs+104outputs (3major+117532minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.88user 3.97system 0:02.44elapsed 279%CPU (0avgtext+0avgdata 255760maxresident)k
+0inputs+104outputs (3major+117494minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.85user 3.94system 0:02.38elapsed 285%CPU (0avgtext+0avgdata 256364maxresident)k
+0inputs+104outputs (3major+117735minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.77user 4.02system 0:02.39elapsed 283%CPU (0avgtext+0avgdata 255468maxresident)k
+0inputs+104outputs (3major+117571minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.76user 4.01system 0:02.35elapsed 287%CPU (0avgtext+0avgdata 256176maxresident)k
+0inputs+104outputs (3major+117358minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.77user 4.02system 0:02.39elapsed 283%CPU (0avgtext+0avgdata 255716maxresident)k
+0inputs+104outputs (3major+117477minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.83user 3.99system 0:02.40elapsed 283%CPU (0avgtext+0avgdata 255840maxresident)k
+0inputs+104outputs (3major+117558minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.78user 4.03system 0:02.39elapsed 284%CPU (0avgtext+0avgdata 255736maxresident)k
+0inputs+112outputs (3major+117446minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.86user 3.95system 0:02.40elapsed 282%CPU (0avgtext+0avgdata 255368maxresident)k
+0inputs+104outputs (3major+117654minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.68user 4.10system 0:02.37elapsed 285%CPU (0avgtext+0avgdata 256388maxresident)k
+0inputs+104outputs (3major+117513minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.80user 3.97system 0:02.36elapsed 286%CPU (0avgtext+0avgdata 255540maxresident)k
+0inputs+104outputs (3major+117470minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.81user 3.95system 0:02.39elapsed 283%CPU (0avgtext+0avgdata 255472maxresident)k
+0inputs+104outputs (3major+117553minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.67user 4.10system 0:02.37elapsed 285%CPU (0avgtext+0avgdata 255320maxresident)k
+0inputs+104outputs (3major+117407minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.76user 3.99system 0:02.34elapsed 287%CPU (0avgtext+0avgdata 256128maxresident)k
+0inputs+104outputs (3major+117496minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.81user 3.98system 0:02.38elapsed 285%CPU (0avgtext+0avgdata 255332maxresident)k
+0inputs+104outputs (3major+117591minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.71user 4.03system 0:02.35elapsed 286%CPU (0avgtext+0avgdata 256016maxresident)k
+0inputs+104outputs (8major+117562minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.80user 4.04system 0:02.41elapsed 283%CPU (0avgtext+0avgdata 255300maxresident)k
+0inputs+104outputs (3major+117590minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.90user 3.93system 0:02.40elapsed 284%CPU (0avgtext+0avgdata 256220maxresident)k
+0inputs+104outputs (3major+117609minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.83user 3.99system 0:02.41elapsed 282%CPU (0avgtext+0avgdata 256428maxresident)k
+0inputs+104outputs (3major+117468minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.76user 4.00system 0:02.39elapsed 282%CPU (0avgtext+0avgdata 255784maxresident)k
+0inputs+104outputs (3major+117459minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.73user 4.06system 0:02.40elapsed 282%CPU (0avgtext+0avgdata 256380maxresident)k
+0inputs+104outputs (3major+117388minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.83user 3.95system 0:02.38elapsed 284%CPU (0avgtext+0avgdata 256180maxresident)k
+0inputs+104outputs (3major+117519minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.77user 3.99system 0:02.36elapsed 286%CPU (0avgtext+0avgdata 256152maxresident)k
+0inputs+104outputs (3major+117537minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+3.00user 3.80system 0:02.39elapsed 284%CPU (0avgtext+0avgdata 255932maxresident)k
+0inputs+104outputs (3major+117507minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.76user 4.03system 0:02.39elapsed 283%CPU (0avgtext+0avgdata 255464maxresident)k
+0inputs+104outputs (3major+117517minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.85user 3.95system 0:02.40elapsed 283%CPU (0avgtext+0avgdata 256064maxresident)k
+0inputs+112outputs (3major+117550minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.94user 3.89system 0:02.42elapsed 281%CPU (0avgtext+0avgdata 256036maxresident)k
+0inputs+104outputs (3major+117430minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.86user 3.98system 0:02.44elapsed 280%CPU (0avgtext+0avgdata 255884maxresident)k
+0inputs+104outputs (3major+117486minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.75user 4.11system 0:02.43elapsed 281%CPU (0avgtext+0avgdata 255272maxresident)k
+0inputs+104outputs (3major+117466minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.76user 4.01system 0:02.38elapsed 284%CPU (0avgtext+0avgdata 255872maxresident)k
+0inputs+104outputs (3major+117444minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.78user 3.88system 0:02.41elapsed 276%CPU (0avgtext+0avgdata 255844maxresident)k
+0inputs+112outputs (6major+117500minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.78user 4.00system 0:02.38elapsed 284%CPU (0avgtext+0avgdata 255060maxresident)k
+0inputs+104outputs (3major+117492minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.84user 4.00system 0:02.43elapsed 281%CPU (0avgtext+0avgdata 255608maxresident)k
+0inputs+104outputs (3major+117646minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.73user 4.07system 0:02.39elapsed 285%CPU (0avgtext+0avgdata 255476maxresident)k
+0inputs+104outputs (3major+117562minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.83user 3.96system 0:02.40elapsed 282%CPU (0avgtext+0avgdata 256180maxresident)k
+0inputs+104outputs (3major+117452minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.93user 3.85system 0:02.37elapsed 285%CPU (0avgtext+0avgdata 255740maxresident)k
+0inputs+104outputs (3major+117483minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.85user 3.96system 0:02.39elapsed 285%CPU (0avgtext+0avgdata 255960maxresident)k
+0inputs+104outputs (3major+117530minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.68user 4.09system 0:02.37elapsed 285%CPU (0avgtext+0avgdata 255016maxresident)k
+0inputs+104outputs (3major+117543minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.73user 4.07system 0:02.38elapsed 285%CPU (0avgtext+0avgdata 256168maxresident)k
+0inputs+104outputs (3major+117445minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.76user 4.03system 0:02.37elapsed 287%CPU (0avgtext+0avgdata 255928maxresident)k
+0inputs+104outputs (3major+117479minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.80user 4.01system 0:02.40elapsed 283%CPU (0avgtext+0avgdata 255736maxresident)k
+0inputs+104outputs (3major+117443minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.76user 4.07system 0:02.40elapsed 284%CPU (0avgtext+0avgdata 256028maxresident)k
+0inputs+104outputs (3major+117455minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.80user 4.01system 0:02.40elapsed 283%CPU (0avgtext+0avgdata 256216maxresident)k
+0inputs+104outputs (3major+117426minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.66user 4.14system 0:02.39elapsed 284%CPU (0avgtext+0avgdata 256348maxresident)k
+0inputs+112outputs (3major+117668minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.77user 4.02system 0:02.36elapsed 286%CPU (0avgtext+0avgdata 255956maxresident)k
+0inputs+104outputs (3major+117535minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.89user 3.91system 0:02.40elapsed 283%CPU (0avgtext+0avgdata 256004maxresident)k
+0inputs+104outputs (3major+117549minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.82user 4.00system 0:02.41elapsed 283%CPU (0avgtext+0avgdata 255888maxresident)k
+0inputs+104outputs (3major+117645minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.83user 3.95system 0:02.37elapsed 286%CPU (0avgtext+0avgdata 255708maxresident)k
+0inputs+104outputs (3major+117503minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.73user 4.05system 0:02.37elapsed 286%CPU (0avgtext+0avgdata 255552maxresident)k
+0inputs+104outputs (3major+117600minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.76user 4.02system 0:02.40elapsed 282%CPU (0avgtext+0avgdata 255492maxresident)k
+0inputs+104outputs (3major+117411minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.79user 3.97system 0:02.37elapsed 285%CPU (0avgtext+0avgdata 256176maxresident)k
+0inputs+104outputs (3major+117412minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.82user 3.98system 0:02.40elapsed 282%CPU (0avgtext+0avgdata 255176maxresident)k
+0inputs+104outputs (3major+117569minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.77user 4.05system 0:02.40elapsed 283%CPU (0avgtext+0avgdata 255272maxresident)k
+0inputs+104outputs (3major+117440minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.75user 4.04system 0:02.38elapsed 284%CPU (0avgtext+0avgdata 255728maxresident)k
+0inputs+104outputs (3major+117491minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.81user 3.99system 0:02.42elapsed 280%CPU (0avgtext+0avgdata 255640maxresident)k
+0inputs+104outputs (3major+117430minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.71user 4.09system 0:02.40elapsed 283%CPU (0avgtext+0avgdata 255992maxresident)k
+0inputs+104outputs (3major+117552minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.78user 3.95system 0:02.33elapsed 288%CPU (0avgtext+0avgdata 256040maxresident)k
+0inputs+104outputs (3major+117529minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.73user 4.03system 0:02.35elapsed 287%CPU (0avgtext+0avgdata 256220maxresident)k
+0inputs+104outputs (3major+117341minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.73user 4.06system 0:02.36elapsed 287%CPU (0avgtext+0avgdata 255684maxresident)k
+0inputs+104outputs (3major+117385minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.85user 3.95system 0:02.40elapsed 282%CPU (0avgtext+0avgdata 256120maxresident)k
+0inputs+104outputs (3major+117400minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.74user 4.07system 0:02.39elapsed 284%CPU (0avgtext+0avgdata 256396maxresident)k
+0inputs+104outputs (3major+117451minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.76user 4.04system 0:02.43elapsed 279%CPU (0avgtext+0avgdata 255980maxresident)k
+0inputs+104outputs (3major+117418minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.80user 3.99system 0:02.37elapsed 286%CPU (0avgtext+0avgdata 255268maxresident)k
+0inputs+104outputs (3major+117536minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.80user 3.96system 0:02.40elapsed 280%CPU (0avgtext+0avgdata 255936maxresident)k
+0inputs+104outputs (3major+117500minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.75user 4.07system 0:02.40elapsed 283%CPU (0avgtext+0avgdata 255708maxresident)k
+0inputs+104outputs (3major+117400minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.74user 4.03system 0:02.37elapsed 286%CPU (0avgtext+0avgdata 255768maxresident)k
+0inputs+104outputs (3major+117583minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.89user 3.95system 0:02.43elapsed 281%CPU (0avgtext+0avgdata 255760maxresident)k
+0inputs+104outputs (3major+117495minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.80user 3.99system 0:02.39elapsed 283%CPU (0avgtext+0avgdata 255988maxresident)k
+0inputs+104outputs (3major+117410minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.83user 4.00system 0:02.43elapsed 280%CPU (0avgtext+0avgdata 255680maxresident)k
+0inputs+104outputs (3major+117546minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.87user 3.87system 0:02.35elapsed 287%CPU (0avgtext+0avgdata 256036maxresident)k
+0inputs+104outputs (3major+117521minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.70user 4.03system 0:02.38elapsed 282%CPU (0avgtext+0avgdata 255924maxresident)k
+0inputs+104outputs (3major+117543minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.47user 4.33system 0:02.38elapsed 285%CPU (0avgtext+0avgdata 256392maxresident)k
+0inputs+104outputs (7major+117585minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.78user 3.98system 0:02.35elapsed 287%CPU (0avgtext+0avgdata 255412maxresident)k
+0inputs+104outputs (3major+117452minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.72user 4.00system 0:02.33elapsed 288%CPU (0avgtext+0avgdata 255488maxresident)k
+0inputs+104outputs (3major+117513minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.60user 4.19system 0:02.39elapsed 283%CPU (0avgtext+0avgdata 255312maxresident)k
+0inputs+104outputs (3major+117497minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.81user 3.99system 0:02.38elapsed 285%CPU (0avgtext+0avgdata 256096maxresident)k
+0inputs+104outputs (3major+117576minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.81user 4.01system 0:02.40elapsed 283%CPU (0avgtext+0avgdata 255384maxresident)k
+0inputs+104outputs (3major+117459minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.76user 4.04system 0:02.39elapsed 283%CPU (0avgtext+0avgdata 255576maxresident)k
+0inputs+104outputs (3major+117327minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.75user 4.10system 0:02.44elapsed 280%CPU (0avgtext+0avgdata 256148maxresident)k
+0inputs+104outputs (3major+117649minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.86user 3.98system 0:02.43elapsed 281%CPU (0avgtext+0avgdata 255864maxresident)k
+0inputs+104outputs (3major+117539minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.70user 4.09system 0:02.38elapsed 284%CPU (0avgtext+0avgdata 255972maxresident)k
+0inputs+104outputs (3major+117577minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.62user 3.72system 0:02.34elapsed 271%CPU (0avgtext+0avgdata 256300maxresident)k
+0inputs+104outputs (3major+117511minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.83user 3.93system 0:02.35elapsed 287%CPU (0avgtext+0avgdata 255776maxresident)k
+0inputs+104outputs (3major+117436minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.74user 4.06system 0:02.39elapsed 284%CPU (0avgtext+0avgdata 256072maxresident)k
+0inputs+104outputs (3major+117556minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.80user 4.01system 0:02.40elapsed 282%CPU (0avgtext+0avgdata 255380maxresident)k
+0inputs+104outputs (3major+117426minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.79user 4.03system 0:02.43elapsed 280%CPU (0avgtext+0avgdata 256000maxresident)k
+0inputs+104outputs (3major+117489minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.81user 3.99system 0:02.40elapsed 283%CPU (0avgtext+0avgdata 255876maxresident)k
+0inputs+104outputs (3major+117551minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.64user 4.15system 0:02.38elapsed 285%CPU (0avgtext+0avgdata 255840maxresident)k
+0inputs+104outputs (3major+117449minor)pagefaults 0swaps
+RuntimeError: module compiled against API version 0xe but this version of numpy is 0xd
+2.67user 4.14system 0:02.40elapsed 282%CPU (0avgtext+0avgdata 255648maxresident)k
+0inputs+104outputs (3major+117562minor)pagefaults 0swaps
