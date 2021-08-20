@@ -3,10 +3,10 @@
 Platform Independant Psychopy for High Reproducibility
 
 ### To Build
-`sudo docker build -t psychomnipy .`
+`./build`
 
 ### To Run
-`sudo docker run -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix psychomnipy`
+`./run`
 
 ### Progress
 
@@ -56,4 +56,3 @@ is not feasible since the GUI subsystem is not available from Docker containers.
 #### August 18th
 https://github.com/gklingler/docker3d
 This repo saves the day. All errors eliminated. Next tasks are to time the processes.
-
