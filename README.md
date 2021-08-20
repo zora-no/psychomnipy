@@ -56,3 +56,6 @@ is not feasible since the GUI subsystem is not available from Docker containers.
 #### August 18th
 https://github.com/gklingler/docker3d
 This repo saves the day. All errors eliminated. Next tasks are to time the processes.
+
+#### August 20th
+It appears that a Linux container won't work on Windows because EEG headsets require COM/Serial ports and the a Linux Serial Port won't map to a Windows port. The next idea is to either build a separate Windows container (if a Windows container can be made to support GUI apps) or to cater to the Windows machines separately and use Docker only for Linux.
