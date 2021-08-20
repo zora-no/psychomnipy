@@ -31,8 +31,9 @@ RUN pip3 install psychtoolbox==3.0.17.7
 #ENV HOME /home/psychophysicist
 
 # add files to filesystem of the container
-COPY psychopy_docker_test.py .
+RUN apt-get install -y git
+RUN git clone https://github.com/ilogue/eegmanylabs-sergent2005.git
 
 # command to run on container start
-CMD ["python", "psychopy_docker_test.py"]
+CMD ["python3", "eegmanylabs-sergent2005/main.py"]
 
