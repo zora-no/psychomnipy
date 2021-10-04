@@ -19,7 +19,7 @@ def displayT1():
     return target1.text
 
 textT1 = displayT1()
-core.wait(0.5)
+#core.wait(0.5)
 
 # flip screen and close window
 SCREEN.flip()
