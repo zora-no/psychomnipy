@@ -1,11 +1,10 @@
+#FROM ubuntu:18.04
 FROM ubuntu
 
-RUN apt-get update
-RUN apt-get install -y mesa-utils
-RUN apt-get install -y xserver-xorg-video-all
-
-RUN apt-get install -y python3
-RUN apt-get install -y python3-pip
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y mesa-utils \
+    xserver-xorg-video-all \
+    python3 \
+    python3-pip
 
 RUN apt-get install -y dpkg-dev \
     build-essential \
@@ -21,18 +20,13 @@ RUN apt-get install -y dpkg-dev \
     libsm-dev \
     libtiff-dev \
     libwebkit2gtk-4.0-dev \
-    libxtst-dev
+    libxtst-dev \
+    git
 
-RUN pip3 install wxPython
-RUN pip3 install psychopy==2021.2
-RUN pip3 install psychtoolbox==3.0.17.7
-
-#USER psychophysicist
-#ENV HOME /home/psychophysicist
+RUN pip3 install --upgrade pip && pip3 install wxPython psychopy==2021.2 psychtoolbox==3.0.17.7
 
 # add files to filesystem of the container
-RUN apt-get install -y git
-RUN git clone https://github.com/ilogue/eegmanylabs-sergent2005.git
+RUN git clone https://github.com/zora-no/eegmanylabs-sergent2005.git
 
 # command to run on container start
 CMD ["python3", "eegmanylabs-sergent2005/main.py"]

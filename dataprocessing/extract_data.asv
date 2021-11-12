@@ -1,0 +1,20 @@
+
+cd ~/Downloads/eeglab/eeglab2021.1/
+eeglab
+
+cd ../../anteep/ANTeepimport1.13/
+
+eegd = pop_loadeep_v4('/home/pbr-student/eegmanylabs/withDocker.cnt')
+eegd = pop_epoch(eegd, {'99'}, [-.2 .2], 'epochinfo', 'yes')
+plot(eegd.times, mean(eegd.data(65,:,:), 3))
+
+x = eegd.data(65,:,:)
+save('/home/pbr-student/psychomnipy/data/innerhalbdocker.mat', 'x')
+
+x = eegd.data(65,:,:)
+save('/home/pbr-student/psychomnipy/data/innerhalbdocker.mat', 'x')
+x = eegd.data(65,:,:)
+save('/home/pbr-student/psychomnipy/data/innerhalbdocker.mat', 'x')
+
+%x = eegd.data(6,:,:)
+%save('/home/pbr-student/psychomnipy/data/ohnedocker.mat', 'x')
