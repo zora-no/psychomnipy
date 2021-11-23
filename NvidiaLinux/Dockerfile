@@ -4,15 +4,18 @@ RUN apt-get update
 RUN apt-get install -y mesa-utils
 
 # install nvidia driver
+RUN apt-get install -y kmod
+
 RUN apt-get install -y binutils
 ADD NVIDIA-DRIVER.run /tmp/NVIDIA-DRIVER.run
 RUN sh /tmp/NVIDIA-DRIVER.run -a -N --ui=none --no-kernel-module
 RUN rm /tmp/NVIDIA-DRIVER.run
 
 RUN apt-get install -y python3
+RUN apt-get update
 RUN apt-get install -y python3-pip
 
-RUN apt-get install -y dpkg-dev \
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y dpkg-dev \
     build-essential \
     freeglut3-dev \
     libgl1-mesa-dev \
