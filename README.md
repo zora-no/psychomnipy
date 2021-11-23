@@ -2,60 +2,50 @@
 # psychomnipy
 Platform Independant Psychopy for High Reproducibility
 
-### To Build
-`./build`
+## Introduction
 
-### To Run
-`./run`
+Most psychophysics experiments are written in PsychoPy and are tailored by the team of researchers to run properly on the target machine in their laboratory.
 
-### Progress
+Since no two computers are identical in their configuration, it is not reasonable to expect an experiment written for one computer to run with absolutely no configuration changes on another machine. Normally, this effort ranges from mild to significant.
 
-August 4, 2021
-It appears that the problem si because of psychopy running inside docker and not being able to detect the existence of display hardware.
-The remedy, appears to be to use Xvfb, which "is an X server that can run on machines with no display hardware and no physical input devices". [src](https://www3.physnet.uni-hamburg.de/physnet/Tru64-Unix/HTML/MAN/MAN1/0554___X.HTM)
+We try to address this problem by harnessing Linux Containers, specifically, Docker. Modern methodologies of software development and deployment have introduced a need for easy portability and quick deployment of software without any tweaking required for each specific machine.
 
-Very important read: https://linuxmeerkat.wordpress.com/2014/10/17/running-a-gui-application-in-a-docker-container/
+We use this need of the software industry to address reproducibility challenges of Psychophysics experiments by preparing a standard example of using Docker to make experiments machine agnostic. We also demonstrate, through timing experiments, that the use of Docker does not add additional latency in the rendering of experimental stimuli.
 
-#### August 6, 2021
+## Latency Analysis
 
-The experiment runs, however, the output goes to xvfb, and doesn't come to the monitor
-http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/   [please try first]
-https://stackoverflow.com/questions/12050021/how-to-make-xvfb-display-visible
+We ran latency tests to confirm the time taken for a square to be drawn on the screen between two EEG pulses. The square was detected by a light sensor. We found that the time taken to draw is identical. This practice was repeated for 1200 trials.
 
-#### August 8, 2021
+Across the 1200 trials, we found that the average rendering times and their standard error were consistent.
 
-- Another good read: http://wiki.ros.org/docker/Tutorials/GUI
-- My tries using the approach from the first URL (using their, and others', example code) all failed with `Error: cannot open display: $DISPLAY`
-- Maybe it's worth to check out x11docker: https://github.com/mviereck/x11docker 
-- The second URL, using x11vnc (adding code below to run.sh): experiment runs, but still no output
-```
-Xvfb $DISPLAY :1 -screen 0 1024x768x24 -ac +extension GLX +render -noreset &> xvfb.log &
-x11vnc -display $DISPLAY -bg -forever -nopw -quiet -listen localhost -xkb
-  ```
+![](dataprocessing/avg.png)
+![](dataprocessing/sterr.png)
 
-#### August 9th
+## How to Use
 
-The experiment runs now, but on a Linux machine with the `$DISPLAY` environment variable and xserver.
+### Windows
 
-This tutorial needs to be tried on Windows machine to test if it can be used on Windows machine as well: https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde
+In Windows, this can be used by using a Linux kernel, and installing xhost. However, we have not prepared instructions for using this on Windows, and this shall be future work.
 
-#### August 11th
-Successfully tried the tutorial on Windows 10. (Note: had to add :0.0 after the IP address, so e.g. 192.166.176.37:0.0) 
+### Linux
 
-The step of manually adding the IP address can be automated: 
+The repository has two folders, one for Nvidia based graphic cards and one for AMD or Open Source Drivers. Based on your machine, enter the relevant folder and follow Run and Build instructions provided below.
 
-The experiment also runs on Windows now:
-1. install vcxsrv and save the config (according to the tutorial link above)
-2. build the docker image
-3. `docker run -ti --rm -e DISPLAY=host.docker.internal:0.0 psychomnipy`
+### Install Docker
 
-#### August 13th
-Creating a separate dockerfile based on Windows to be used on Windows machines (to prevent having to install vcxsrv)
-is not feasible since the GUI subsystem is not available from Docker containers.
+1. Select your Linux Distro from the menu on the left on this page https://docs.docker.com/engine/
+2. Open a Terminal Window (Ctrl + Alt + T)
+3. Run the provided commands in a Terminal Window
+4. Navigate to `NvidiaLinux` if you have Nvidia Drivers Or `OSDriverLinux` if you have AMD or Intel HD Graphics
+5. Run `./build` to build the container
+6. Run `./run` to run the experiment
 
-#### August 18th
-https://github.com/gklingler/docker3d
-This repo saves the day. All errors eliminated. Next tasks are to time the processes.
 
-#### August 20th
-It appears that a Linux container won't work on Windows because EEG headsets require COM/Serial ports and the a Linux Serial Port won't map to a Windows port. The next idea is to either build a separate Windows container (if a Windows container can be made to support GUI apps) or to cater to the Windows machines separately and use Docker only for Linux.
+## How to Reuse for Your Own Purposes
+
+Steps to reuse the Dockerfile
+1. Enter your required Linux packages in line 7
+2. Enter your required Python packages in line 26
+3. Clone your repo in line 29
+4. Provide the file path to your experiment file in line 32
+
