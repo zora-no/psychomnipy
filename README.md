@@ -31,21 +31,26 @@ In Windows, this can be used by using a Linux kernel, and installing xhost. Howe
 
 The repository has two folders, one for Nvidia based graphic cards and one for AMD or Open Source Drivers. Based on your machine, enter the relevant folder and follow Run and Build instructions provided below.
 
-### Install Docker
-
-1. Select your Linux Distro from the menu on the left on this page https://docs.docker.com/engine/
-2. Open a Terminal Window (Ctrl + Alt + T)
+1. Open a Terminal Window (Ctrl + Alt + T)
+2. Select your Linux Distro from the menu on the left on this page https://docs.docker.com/engine/. The Docker website provides clear and updated instructions on how to install.
 3. Run the provided commands in a Terminal Window
 4. Navigate to `NvidiaLinux` if you have Nvidia Drivers Or `OSDriverLinux` if you have AMD or Intel HD Graphics
 5. Run `./build` to build the container
-6. Run `./run` to run the experiment
+6. Run `./run` to run the experiment from inside the container
 
 
-## How to Reuse for Your Own Purposes
+## How to Reuse
 
 Steps to reuse the Dockerfile
 1. Enter your required Linux packages in line 7
 2. Enter your required Python packages in line 26
 3. Clone your repo in line 29
 4. Provide the file path to your experiment file in line 32
+
+## Further Help
+
+Should you need further assistance, or have questions, please contact
+
+1. Zora Nolte (zora.nolte@gmail.com)
+2. Hunaid Hameed (hhameed@uni-osnabrueck.de)
 
